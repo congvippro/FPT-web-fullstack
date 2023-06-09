@@ -18,4 +18,4 @@ Trỏ đến file frontend và mở terminal.
 Tại terminal gõ lệnh: `npm install` và chờ npm tải xuống các thư viện cần thiết  
 Tiếp theo gõ lệnh: `npm audit fix`
 ### Khởi động
-Gõ lệnh: "npm start" để khởi động server
+Gõ lệnh: "npm start" để khởi động web
