@@ -1,0 +1,49 @@
+.tin-tuc {
+  border: 2px solid #000000;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  width: 70%;
+  margin: 10px 0 0 10%;
+}
+
+.tin-tuc-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  color: #333;
+}
+
+.tin-tuc-item {
+  margin: 20px 15px;
+  padding: 10px;
+  background-color: #82c580;
+  border-radius: 10px;
+  width: 93%;
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.tin-tuc-item:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tin-tuc-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3b3d40;
+}
+
+.tin-tuc-summary {
+  margin-top: 5px;
+  color: #666;
+}
+
+.img-news {
+  height: 150px;
+  margin-right: 20px;
+  width: 230px;
+}

@@ -1,0 +1,13 @@
+.sidebar-docs {
+  float: left; /* căn lề trái */
+  width: 15%; /* chiều rộng */
+  text-align: left;
+}
+.content-docs {
+  float: left; /* căn lề trái */
+  width: 75%; /* chiều rộng */
+}
+
+.document-content {
+  display: flex;
+}

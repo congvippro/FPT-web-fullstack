@@ -1,0 +1,25 @@
+.sidebar-doc {
+  width: 200px;
+  background-color: #f2f2f2;
+  height: 50vh;
+  position: inherit;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-doc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-doc li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar-doc li:hover {
+  background-color: #ddd;
+}

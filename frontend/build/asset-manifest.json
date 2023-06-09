@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/testfptinternalweb.github.io/static/css/main.e261f74c.chunk.css",
+    "main.js": "/testfptinternalweb.github.io/static/js/main.8731cfa4.chunk.js",
+    "main.js.map": "/testfptinternalweb.github.io/static/js/main.8731cfa4.chunk.js.map",
+    "runtime-main.js": "/testfptinternalweb.github.io/static/js/runtime-main.1fc1e2cf.js",
+    "runtime-main.js.map": "/testfptinternalweb.github.io/static/js/runtime-main.1fc1e2cf.js.map",
+    "static/js/2.a29a20b6.chunk.js": "/testfptinternalweb.github.io/static/js/2.a29a20b6.chunk.js",
+    "static/js/2.a29a20b6.chunk.js.map": "/testfptinternalweb.github.io/static/js/2.a29a20b6.chunk.js.map",
+    "index.html": "/testfptinternalweb.github.io/index.html",
+    "static/css/main.e261f74c.chunk.css.map": "/testfptinternalweb.github.io/static/css/main.e261f74c.chunk.css.map",
+    "static/js/2.a29a20b6.chunk.js.LICENSE.txt": "/testfptinternalweb.github.io/static/js/2.a29a20b6.chunk.js.LICENSE.txt",
+    "static/media/FPTlogo.bf7caa4e.png": "/testfptinternalweb.github.io/static/media/FPTlogo.bf7caa4e.png",
+    "static/media/fpt-tower.cce3de04.jpg": "/testfptinternalweb.github.io/static/media/fpt-tower.cce3de04.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fc1e2cf.js",
+    "static/js/2.a29a20b6.chunk.js",
+    "static/css/main.e261f74c.chunk.css",
+    "static/js/main.8731cfa4.chunk.js"
+  ]
+}

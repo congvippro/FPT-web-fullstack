@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+}
+.news {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sidebar {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+}
+.child-content {
+  width: 90%;
+}
+.logo {
+  margin-left: 60px;
+}
+
+.background-homepage {
+  background-image: url("https://chuyendoisodoanhnghiep.com.vn/image/catalog/about_us/GIOI-THIEU-1.jpg");
+  background-size: cover;
+}

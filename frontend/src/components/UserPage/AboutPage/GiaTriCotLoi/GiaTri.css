@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  margin: 30px;
+  flex: 1;
+}
+.middle {
+  flex: 2;
+}
+.right {
+  flex: 1;
+  margin: 30px;
+}
+p {
+  text-align: left;
+  padding: 4px 0;
+}
+
+.img-right {
+  margin-left: 160px;
+}
+
+.img-left {
+  margin-right: 160px;
+}
+.values-element {
+  height: 200px;
+  background-color: #82e2f3;
+  border: solid;
+  border-radius: 12px;
+  padding: 0px 8px;
+  margin: 10px;
+}
+
+.GiaTriCotLoi-page {
+  background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+  background-size: cover;
+  padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.a-bieumau {
+  color: black;
+}
+
+.document-link {
+  display: inline-block;
+  width: 15%;
+}
+.document-date {
+  display: inline-block;
+  width: 20%;
+}
+.document-author {
+  display: inline-block;
+  width: 45%;
+}
+.document-download {
+  display: inline-block;
+  width: 10%;
+}
+
+.document-list li {
+  border-bottom: 2px solid #404040;
+  margin: 20px;
+  padding: 10px;
+}
+
+.document-date,
+.document-author,
+.document-download {
+  text-align: left;
+}

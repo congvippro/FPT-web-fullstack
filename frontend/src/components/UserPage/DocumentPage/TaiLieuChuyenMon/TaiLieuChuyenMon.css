@@ -1,0 +1,28 @@
+.DocsListManageUser {
+  width: 80%;
+}
+
+.DocsHeaderUser,
+.DocsElementViewUser {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.DocsHeaderUser {
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.column-order,
+.column-title,
+.column-content,
+.column-date {
+  flex: 1;
+  padding: 0;
+  text-align: center;
+}
+
+.DocsElementsWrappperUser {
+  padding: 0;
+}

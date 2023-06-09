@@ -1,0 +1,111 @@
+.MeetingRoomManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+  background-size: cover;
+}
+
+.form {
+  /* display: flex; */
+  margin-left: 400px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.input-text,
+.input-textarea,
+.input-select {
+  width: 95%;
+  padding: 0.5rem;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-top: 1rem;
+}
+
+.MeetingRoomListManage {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 45%;
+  max-width: 1000px;
+}
+
+.MeetingRoomElementView {
+  flex: 1;
+  padding: 1rem;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  margin: 20px 0px 5px -30px;
+  width: 100%;
+  background: powderblue;
+}
+
+.h2_meetingroommanage {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.MeetingRoomInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.MeetingRoomInfoItem {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 0.5rem;
+}
+
+.MeetingRoomInfoItem h3 {
+  margin-bottom: 0.25rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}

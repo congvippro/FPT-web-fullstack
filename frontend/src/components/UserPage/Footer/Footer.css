@@ -1,0 +1,93 @@
+footer {
+  background-color: #2d94b1;
+  color: #ffffff;
+}
+
+footer h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+ul.social-links li {
+  display: inline-block;
+}
+
+ul.social-links li {
+  margin: 28px;
+}
+
+ul.social-links li i {
+  margin: 10px auto;
+  color: #000;
+}
+
+ul.social-links a {
+  display: block;
+  color: #ffffff;
+  margin-top: 3px;
+  font-size: 17px;
+  line-height: 24px;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+ul.social-links a:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul.social-links a svg {
+  width: 16px;
+  height: 16px;
+}
+
+.row {
+  display: flex;
+}
+.text-right {
+  text-align: center;
+  margin: 0;
+  margin-left: 580px;
+}
+
+.col-md-3 {
+  padding-left: 50px;
+}
+
+.col-md-3 h3 {
+  width: 600px;
+}
+
+.col-md-3 strong {
+  font-size: large;
+}
+
+.col-md-3 p {
+  font-size: medium;
+  width: 80%;
+}
+
+.col-md-6 h3 {
+  padding-left: 90px;
+}
+
+.col-md-6 {
+  width: 30%;
+}
+
+i {
+  font-size: 20px;
+}
+i {
+  margin-bottom: 24px;
+}

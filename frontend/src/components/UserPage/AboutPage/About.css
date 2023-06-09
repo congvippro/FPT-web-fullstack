@@ -1,0 +1,156 @@
+.setbackground {
+  background-image: url("https://chuyendoisodoanhnghiep.com.vn/image/catalog/about_us/GIOI-THIEU-1.jpg");
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+}
+.row_f {
+  display: flex;
+  background-color: #fefefea1;
+}
+
+.title-line-1 {
+  height: 60px;
+  text-align: center;
+}
+.section-service-item {
+  display: block;
+  /* color: #fefefe; */
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 50%;
+  background-color: #b8da7a;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.section-service-item {
+  margin: 10px;
+  padding: 10px;
+}
+
+.block-content {
+  /* color: aliceblue; */
+  font-size: x-large;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.title-in-block-border {
+  margin: 0 0 10px;
+  padding: 5px;
+  border-bottom: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.text-in-block-border {
+  margin: 6px 0;
+  padding: 5px;
+  border-top: none;
+  /* background: #d9d9d9; */
+  color: rgb(8, 8, 8);
+  border-radius: 10px;
+}
+
+.email u {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.phone-line-1 {
+  font-style: italic;
+}
+
+.section-fpt-info-item {
+  /* background-color: #b3b3b3; */
+  /* border: 2px solid #ccc; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.block-title-content {
+  margin-bottom: 10px;
+}
+
+.content-child {
+  padding: 10px;
+  margin: -10px;
+  font-size: x-large;
+}
+
+.title-in-block-border {
+  margin: 6px 0;
+  padding: 0;
+  font-weight: bold;
+  /* background-color: #ecf3f9; */
+}
+
+.text-in-block-border {
+  padding: 5px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.number {
+  color: rgb(0, 0, 0);
+}
+
+.section-fpt-info-item {
+  transition: transform 0.2s ease-in-out;
+  width: 23%;
+}
+.section-fpt-info-item:hover {
+  transform: translateY(-17px);
+}
+
+.block-content {
+  transition: transform 0.2s ease-in-out;
+  padding: 10px;
+}
+.block-content:hover {
+  transform: translateY(-17px);
+}
+.name {
+  height: 60px;
+  text-align: center;
+}
+
+.address {
+  height: 180px;
+}
+
+.h1-center {
+  text-align: center;
+}
+
+.h1-center-schedule {
+  text-align: center;
+  margin-left: 150px;
+}
+
+.col-12 {
+  background-color: #fefefea1;
+}
+
+.truso-col1 {
+  background-color: #f6eb6cba;
+}
+
+.truso-col2 {
+  background-color: #7075faba;
+}
+
+.truso-col3 {
+  background-color: #84e361ba;
+}
+
+.truso-col4 {
+  background-color: #ff8eddba;
+}

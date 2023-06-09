@@ -1,0 +1,12 @@
+.meeting_list_span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.meeting-item {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}

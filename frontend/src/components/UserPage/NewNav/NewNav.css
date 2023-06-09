@@ -1,0 +1,141 @@
+nav {
+  background-color: #084277bc;
+  color: #ffffff;
+  padding: 3px 10px 0px 10px;
+  font-size: medium;
+  position: relative;
+}
+
+ul.menu {
+  list-style: none;
+  display: flex;
+}
+
+li.nav-li {
+  padding: 0 20px;
+}
+
+#a-nav {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul.menu > li {
+  display: inline-block;
+  padding: 10px 23px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the sub-menus */
+ul.submenu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+ul.submenu > li {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Show sub-menus on hover or click */
+ul.menu > li:hover ul.submenu {
+  display: block;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.right-icons i {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.notification-banner {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/*hộp thoại*/
+.notification-box,
+.message-box {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 250px;
+  height: 100px;
+  background-color: palegoldenrod;
+  border: 2.5px solid black;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.notification-header,
+.message-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.notification-content,
+.message-content {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.notification-close,
+.message-close {
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.notification-close:hover,
+.message-close:hover {
+  background-color: #ccc;
+}
