@@ -117,6 +117,7 @@ function MeetingRoomManager() {
               id="meeting-date"
               name="meeting_date_input"
               className="input-text"
+              // value={format(new Date(Date.parse(date)), "yyyy-MM-dd'T'HH:mm")}
               value={date}
               onChange={(event) => setDate(event.target.value)}
             />
@@ -152,10 +153,6 @@ function MeetingRoomManager() {
                 <h2 className="h2_meetingroommanage">{val.title}</h2>
                 <div className="MeetingRoomInfo">
                   <div className="MeetingRoomInfoItem">
-                    <h3>Phòng:</h3>
-                    <p>{val.room}</p>
-                  </div>
-                  <div className="MeetingRoomInfoItem">
                     <h3>Thời gian:</h3>
                     <span className="meeting_list_span">
                       Ngày họp: {format(new Date(val.date), "yyyy-MM-dd")}
@@ -163,10 +160,6 @@ function MeetingRoomManager() {
                     <span className="meeting_list_span">
                       Giờ: {format(new Date(val.date), "HH:mm:ss")}
                     </span>
-                  </div>
-                  <div className="MeetingRoomInfoItem">
-                    <h3>Phòng ban:</h3>
-                    <p>{val.department}</p>
                   </div>
                 </div>
                 <div className="button-group">
@@ -184,8 +177,14 @@ function MeetingRoomManager() {
                       setEditingMeeting(val);
                       setTitle(val.title);
                       setRoom(val.room);
-                      setDate(val.date);
+                      setDate(
+                        format(
+                          new Date(Date.parse(val.date)),
+                          "yyyy-MM-dd'T'HH:mm"
+                        )
+                      );
                       setDepartment(val.department);
+                      alert("Sửa thành công");
                     }}
                   >
                     Edit

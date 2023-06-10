@@ -145,6 +145,7 @@ function NewsManager() {
                       setEditingNews(val);
                       setTitle(val.Title);
                       setContent(val.Content);
+                      alert("Sửa thành công");
                     }}
                   >
                     Sửa
