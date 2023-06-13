@@ -54,7 +54,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="section-fpt-info-item col-sm-12 col-md-12 col-lg-6 col-xl-6 truso-col3">
+        <div className="section-fpt-info-item col-sm-12 col-md-12 col-lg-6 col-xl-6 truso-col1">
           <div className="block-title-content block-margin-mobile">
             <div className="content-child">
               <p className="title-in-block-border name">
@@ -73,7 +73,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="section-fpt-info-item col-sm-12 col-md-12 col-lg-6 col-xl-6 truso-col4">
+        <div className="section-fpt-info-item col-sm-12 col-md-12 col-lg-6 col-xl-6 truso-col2">
           <div className="block-title-content block-margin-left block-margin-mobile">
             <div className="content-child">
               <p className="title-in-block-border  name">
@@ -101,7 +101,7 @@ function AboutPage() {
       <div className="col-12">
         <div className="section-service">
           <div className="row">
-            <div className="block-content">
+            <div className="block-content truso-col2">
               <p className="title-in-block-border title-line-1">
                 Phát triển phần mềm
               </p>
@@ -113,7 +113,7 @@ function AboutPage() {
                 Điện thoại: +84 24 3768 9048
               </p>
             </div>
-            <div className="block-content">
+            <div className="block-content truso-col1">
               <p className="title-in-block-border title-line-1">
                 Dịch vụ trực tuyến
                 <div></div>
@@ -126,7 +126,7 @@ function AboutPage() {
               </p>
             </div>
 
-            <div className="block-content">
+            <div className="block-content truso-col2">
               <p className="title-in-block-border title-line-1">
                 Tích hợp Hệ thống, Dịch vụ CNTT
               </p>
@@ -138,7 +138,7 @@ function AboutPage() {
               </p>
             </div>
 
-            <div className="block-content">
+            <div className="block-content truso-col1">
               <p className="title-in-block-border title-line-1">
                 Dịch vụ Internet, truyền hình
                 <div></div>
