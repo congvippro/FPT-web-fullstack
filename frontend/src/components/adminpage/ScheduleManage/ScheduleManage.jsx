@@ -184,7 +184,6 @@ function MeetingRoomManager() {
                         )
                       );
                       setDepartment(val.department);
-                      alert("Sửa thành công");
                     }}
                   >
                     Edit

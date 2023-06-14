@@ -29,6 +29,7 @@ function SchedulePage() {
   const handleSubmit = (event) => {
     event.preventDefault();
     submitMeeting();
+    alert("Gửi thành công");
   };
 
   const submitMeeting = () => {

@@ -10,7 +10,7 @@ function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "cong171002" && password === "123456") {
+    if (password === "123456") {
       navigate("/home");
     } else if (username === "admin" && password === "admin") {
       navigate("/docs-admin");
