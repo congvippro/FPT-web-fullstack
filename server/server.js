@@ -241,6 +241,15 @@ app.get("/api/MeetingsGet", (req, res) => {
   });
 });
 
+app.get("/api/MeetingsGetIT", (req, res) => {
+  const sqlSelect =
+    "SELECT * FROM meetings where department = 'IT' or department = 'Toàn công ty'";
+  db.query(sqlSelect, (err, result) => {
+    if (err) console.log(err);
+    else res.send(result);
+  });
+});
+
 app.put("/api/MeetingsUpdate", (req, res) => {
   const oldTitle = req.body.oldTitle;
   const newTitle = req.body.newTitle;

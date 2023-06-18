@@ -6,7 +6,7 @@ import { format } from "date-fns";
 function MeetingList() {
   const [meetings, setMeetings] = useState([]);
   useEffect(() => {
-    Axios.get("http://localhost:3001/api/MeetingsGet").then((response) => {
+    Axios.get("http://localhost:3001/api/MeetingsGetIT").then((response) => {
       setMeetings(response.data);
     });
   }, []);
